@@ -35,4 +35,4 @@ layout = dbc.Container([
         dbc.Col(dbc.Card(dbc.CardBody(dcc.Graph(id='graph-region-1'))), xs=12, md=6),
         dbc.Col(dbc.Card(dbc.CardBody(dcc.Graph(id='graph-region-2'))), xs=12, md=6),
     ])
-], fluid=True)
+], fluid=True, style={'backgroundColor': '#f8f9fa', 'minHeight': '100vh'})
